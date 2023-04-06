@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .first{
     padding: 12px 230px 125px; /*12 top, 230 left right, 125 bottom*/
@@ -82,4 +83,25 @@ img{
 }
 p{
     margin-top: 5px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#E5E7EB;
+    padding: 100px 230px 90px; /*top 100, right left 230, bottom 90*/
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    width: 590px;
+    flex-shrink: 1;
+    margin-bottom: 0;
+}
+.client{
+    display: flex;
+    width: 590px;
+    justify-content: flex-end;
+    font-weight: bolder;
 }
